@@ -17,9 +17,7 @@
                     <version>3.0.0-M5</version>
                     <configuration>
                         <suiteXmlFiles>
-                            <!-- pass testng.xml files as argument from command line -->
-                            <!--Ex: mvn clean test -Dsurefire.suiteXmlFiles=TestNG.xml-->
-                            <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+                            <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
